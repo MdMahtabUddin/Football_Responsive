@@ -116,8 +116,6 @@ h1 {
   font-size: 16px;
   color: #6c6c6c;
 }
-
-/* Popular Club styling  */
 .section-title {
   color: #6c6c6c;
   font-size: 30px;
@@ -125,4 +123,37 @@ h1 {
   text-align: center;
   padding-bottom: 30px;
 }
-/* Popular player styling */
+
+/* footer  */
+
+.footer {
+  font-size: 14px;
+  padding: 30px 0 30px;
+}
+
+.footer p {
+  color: #8a8a8a;
+}
+
+.footer-img {
+  flex: 1;
+  text-align: center;
+}
+.footer-img img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  flex-basis: 12%;
+  text-align: center;
+}
+#icon {
+  font-size: 20px;
+  color: #8a8a8a;
+  margin-left: 10px;
+}
+
+.copyright {
+  text-align: center;
+}

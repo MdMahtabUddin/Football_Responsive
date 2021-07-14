@@ -1,0 +1,66 @@
+/*  Mobile Responsvie  */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* promotional Section */
+  .promotional-part {
+    width: 100%;
+    height: 691px;
+  }
+  .promotion {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 50px;
+  }
+  .promotional-title h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .promotional-img {
+    width: 329px;
+    height: 259.17px;
+  }
+  .promotional-img img {
+    width: 100%;
+  }
+
+  /* Players Section */
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*  For Tables*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* promotinal section */
+  .promotional-part {
+    height: 380px;
+  }
+  .promotional-title h1 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+  .promotional-img {
+    width: 329px;
+    height: 259.17px;
+    margin-top: 54px;
+  }
+  .promotional-img img {
+    width: 100%;
+  }
+
+  /* Players Sections */
+
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,7 +1,7 @@
-/* Google Fonts */
+/*  Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* =========   COMMON STYLING ========== */
+/*    Common Style */
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +40,7 @@ h1 {
   transform: translateX(13px);
 }
 
-/* ===========  Hero Section Styling  =========== */
+/*  promotional Section Styling  */
 .promotional-part {
   background-color: teal;
   width: 100%;
@@ -125,4 +125,4 @@ h1 {
   text-align: center;
   padding-bottom: 30px;
 }
-/* Top player styling */
+/* Popular player styling */

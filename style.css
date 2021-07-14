@@ -1,0 +1,128 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* =========   COMMON STYLING ========== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background: #e02c6d;
+  text-decoration: none;
+  padding: 10px 24px;
+  color: white;
+  transition: background 0.5s ease-in-out;
+  text-transform: capitalize;
+}
+
+.button__icon {
+  transition: transform 0.5s ease-in-out;
+}
+
+.button:hover {
+  background-color: #e02c6eb2;
+}
+.button:hover .button__icon {
+  transform: translateX(13px);
+}
+
+/* ===========  Hero Section Styling  =========== */
+.promotional-part {
+  background-color: teal;
+  width: 100%;
+  height: 527px;
+}
+.promotion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.promotional-title {
+  margin-right: 73px;
+}
+.promotional-title h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  color: white;
+  margin-top: 108px;
+  margin-bottom: 30px;
+}
+
+.promotional-img {
+  width: 556px;
+  margin-top: 43px;
+}
+.promotional-img img {
+  width: 100%;
+}
+
+/*  PLayers Section Styling */
+#players_section {
+  padding: 88px 0px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 42px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player:hover .player__img img {
+  transform: scale(1.5);
+}
+.player__img {
+  height: 256px;
+  margin: 10px;
+  overflow: hidden;
+}
+.player__img img {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.player:hover .player__img img {
+  transform: scale(1.1);
+}
+
+.player__detail {
+  padding: 10px;
+}
+
+.player__detail h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+.player__detail p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+/* Popular Club styling  */
+.section-title {
+  color: #6c6c6c;
+  font-size: 30px;
+  margin-top: 3px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* Top player styling */
